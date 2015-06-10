@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+
+<html> 
+<head>
+	<meta charset="utf-8">
+    <title>Bullion Central</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css?ts=20150610121212">	
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bigSlide.min.js"></script>
+	<script src="js/index.js?ts=20150610121212"></script>
+
+	<script>
+		$(document).ready(function() {
+		
+			$('.menu-link').bigSlide({
+				speed: 200,
+				menuWidth: '12.2em',
+				easyClose: false
+			});
+		});
+		
+		
+	</script>
+
+</head>
+
+<body onload="initBullionCentral()">
+
+
+	<div class="cl_div_menu" width="100%" >
+		<a href="#menu" class="menu-link">&#9776;</a>
+		<span class="cl_span_title" >Bullion Central </span>
+	</div>
+
+	<nav id="menu" class="panel" role="navigation">
+		<ul>
+			<li onclick="javascript:load_url('HOME')"><a href="#">Home</a></li>
+			<li onclick="javascript:load_url('VB')"><a href="#">Vardhaman Bullion</a></li>
+			<li onclick="javascript:load_url('RB')"><a href="#">Rahul Bullion</a></li>
+			<li onclick="javascript:load_url('SVBC')"><a href="#">svbc gold</a></li>
+			<li onclick="javascript:load_url('CG')"><a href="#">CapsGold</a></li>
+			<li onclick="javascript:load_url('DP')"><a href="#">DP Bullions</a></li>
+			
+		</ul>
+
+	</nav>
+
+	<iframe id="id_iframe_webbview" src="misc/home.html">
+	</iframe>
+
+</body>
+</html>
