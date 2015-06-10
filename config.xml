@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.vardhamanbullion.live"
-        versionCode="13" 
+        id        = "com.phonegap.bullioncentral.live"
+        versionCode="1" 
         version   = "1.0.0">
 
 
-    <name>Vardhaman Bullion</name>
+    <name>Bullion Central</name>
 
     <description>
-        Vardhaman Bullion is a renowned company providing Bullion, Jewellery (Silver and Gold) in India. Established in 
-        Jan 2000, it has grown leaps and bounds and is now a leading company providing competitive rates and impeccable 
-        service
+        Bullion Central App is a centralized one stop location for all bullion Dealers across locations and geographies
     </description>
 
     <author href="http://www.magicbul.com" email="amitjain231@gmail.com">
-        Amit kumar Jain
+        Global Starzzz
     </author>
 
 	<gap:platform name="ios" />
@@ -28,12 +26,14 @@
 	<icon src="icon.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="icon.png" gap:platform="android" gap:density="xhdpi" />
 
+
+
+	<!--		
 	<gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="splash.png" gap:platform="android" gap:density="xhdpi" />
-
-	<!--		
+	
 	<icon src="icon.png" gap:platform="ios" width="57" height="57" />
 	<icon src="icon.png" gap:platform="blackberry" />	
 	<icon src="icons/winphone/icon.png" gap:platform="winphone" />
@@ -46,7 +46,7 @@
 
 	<!-- Preferences Permissions, Phonegap version to build -->
 	<preference name="permissions" value="none"/>
-	<preference name="phonegap-version" value="3.5.0" />	
+	<preference name="phonegap-version" value="3.6.3" />	
 	
 	<!-- Required only Notification permission -->
 	<feature name="http://api.phonegap.com/1.0/notification"/>
